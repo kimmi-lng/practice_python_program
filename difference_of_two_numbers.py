@@ -2,3 +2,4 @@
 numb1 = float(input("Enter the first number: "))
 numb2 = float(input("Enter the second number: "))
 #condition and result
+print(f"the difference of the two numbers is {numb1 - numb2}")
