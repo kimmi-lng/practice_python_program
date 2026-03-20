@@ -5,3 +5,11 @@
 #ask for numbers
 #condition
 #print the result
+try:
+    ask_numbs = int(input("Enter a number (0-1000): "))
+    if 0 <= ask_numbs <= 1000:
+        print(f"The output is: {ask_numbs:06}")
+    else:
+        print("Enter a number that is within the range of 0 to 1000")
+except ValueError:
+    print("Invalid input")
