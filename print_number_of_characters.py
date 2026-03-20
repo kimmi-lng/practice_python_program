@@ -4,3 +4,9 @@
 #Output: 14
 #ask for their full name
 #condiiton
+ask_name = input("Enter your full name: ")
+count = len(ask_name)
+if ask_name.strip():
+    print(f"Character count: {count}")
+else:
+    print("Invalid, No character found")
