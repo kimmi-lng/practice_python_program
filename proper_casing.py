@@ -3,7 +3,7 @@
 #Input: jUAn DEla CrUZ
 #Output: Juan Dela Cruz
 #ask for the name then use if else statement for condition then print
-ask_name = input("Enter your full name: ")
+ask_name = input("Enter your full name in incorrect casing: ")
 if ask_name.strip():
     proper_casing = ask_name.title()
     print(f"The entered name in proper casing: {proper_casing}")
