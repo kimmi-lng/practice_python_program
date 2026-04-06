@@ -11,3 +11,5 @@ for char in statement:
     else:
         swap_case += char
 #print the result
+print(f"Original: {statement}")
+print(f"Result: {swap_case}")
