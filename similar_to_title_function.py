@@ -8,6 +8,7 @@ new_statement = []
 for word in cut_words:
     new_words = word[0].upper() + word[1:].lower()
     new_statement.append(new_words)
+result = " ".join(new_statement)
 #print the result
-print(f"Original: {statement}")
-print(f"Result: {new_statement}")
+print(f"Original: {result}")
+print(f"Result: {result}")
