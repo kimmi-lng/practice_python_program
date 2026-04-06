@@ -3,5 +3,11 @@
 comp_text_with_suffix = "Kim Russel jr"
 suffix = " jr"
 #get the length of the suffix to be removed
+length_suffix = len(suffix)
 #condition
+if length_suffix > 0 and comp_text_with_suffix[-length_suffix:] == suffix:
+    result = comp_text_with_suffix[:-length_suffix]
+else:
+    result = comp_text_with_suffix
 #print result
+print(result)
