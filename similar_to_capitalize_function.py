@@ -7,5 +7,8 @@ if len(statement) > 0:
     first_character = statement[0].upper()
     other_characters = statement[1:].lower()
     full_statement = first_character + other_characters
+else:
+    print("Can not be empty")
 #print result
+print(f"Original: {statement}")
 print(f"Result: {full_statement}")
