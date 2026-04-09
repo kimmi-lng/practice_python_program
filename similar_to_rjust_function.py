@@ -2,3 +2,16 @@
 #we need 2 things here the main text and the variable which define how long will be the text to be justified
 #text and length will be given
 #using if else statement we can identify how many space char to add and if we will add
+statement = "russel ah ah"
+just_length = 25
+
+text_length = len(statement)
+space_add = just_length - text_length
+
+if space_add > 0:
+    result = (space_add * " ") + statement
+else:
+    result = statement
+
+print(f"Original: |{statement}|")
+print(f"Result: |{result}|")
